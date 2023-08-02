@@ -10,8 +10,14 @@ https://www.kdnuggets.com/2023/04/stepbystep-guide-web-scraping-python-beautiful
 6. Initialise project with GitHub: git init
 7. Create .gitignore file (list hidden files with ls -a): vim .gitignore, , esc-:wq, (nano .gitignore)
 
-8. 
-
+8. Push to git:
+To link your local repository to your GitHub account and push your code to GitHub, you need to add a remote URL. Assuming you have already created a repository on GitHub, follow these steps:
+	1. Create a new repository on GitHub (if you haven't already).
+	2. Copy the repository URL (HTTPS or SSH)
+	3. Terminal, navigate to the root directory of your project.
+	4. Add the remote repository using the following command:
+	 	git remote add origin https://github.com/anne-lene/webscraping.git
+	5. Check: git remote -v
 
 
 Steps, when setting up the project on another system:

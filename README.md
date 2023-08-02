@@ -1,6 +1,7 @@
 # Ressources: 
 https://www.kdnuggets.com/2023/04/stepbystep-guide-web-scraping-python-beautiful-soup.html
 
+# Steps to set up the project locally and on github
 1. Create folder
 2. Create a requirements.txt file with all dependencies
 3. Create virutalenv with anaconda: conda create --name webscraping_env python=3
@@ -22,9 +23,16 @@ To link your local repository to your GitHub account and push your code to GitHu
 	7. Git commit "Initial commit"
 	8. Push: git push -f origin main (branch name see git repo) (force push will ignore the gitignore file!), (WROKAROUND: Remove the to-be-ignored files on the GitHub and then add, commit, push again)
 
+9. To revert to older branches on git, eg, accidentally deleted files, do:
+	git log -> copy respective hash
+	git checkout insert-hash insert-name-of-folder-to-be-reverted
+	e.g. git checkout 13b01f7ca527f929af841bbdd1f85ddbf1f3a553 ./
+
+# Webscraping
 
 
-Steps, when setting up the project on another system:
+
+# Steps, when setting up the project on another system:
 1. Clone the git repository: git clone <repository_url>
 2. cd project
 3. Create and activate the Anaconda environment:

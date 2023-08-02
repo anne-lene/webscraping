@@ -18,6 +18,10 @@ To link your local repository to your GitHub account and push your code to GitHu
 	4. Add the remote repository using the following command:
 	 	git remote add origin https://github.com/anne-lene/webscraping.git
 	5. Check: git remote -v
+	6. Git add .
+	7. Git commit "Initial commit"
+	8. Push: git push -f origin main (branch name see git repo)
+
 
 
 Steps, when setting up the project on another system:

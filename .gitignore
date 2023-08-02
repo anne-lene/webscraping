@@ -1,0 +1,6 @@
+# .gitignore file
+.DS_Store		
+.git			
+.empty
+dist/
+build/
